@@ -1,0 +1,44 @@
+name: Gizmodo RSS Monitor
+
+on:
+  repository_dispatch:
+    types: [trigger_rss_check]
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 履歴コミットのために必須
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # state.jsonを更新してプッシュするために、PATを用いてチェックアウトする
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Run Monitor Script
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python gizmodo_monitor.py
+
+      - name: Commit and Push state.json if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # state.json の変更がある場合のみコミット
+          if git diff --name-only | grep -q "state.json"; then
+            echo "State file changed. Committing and pushing..."
+            git add state.json
+            git commit -m "chore: update RSS state [skip ci]"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "No state changes detected."
+          fi
