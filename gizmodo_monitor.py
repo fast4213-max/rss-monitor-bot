@@ -41,7 +41,7 @@ def parse_to_jst(date_str: str) -> str:
 def fetch_rss_feed(url: str) -> list:
     """
     RSSフィードを取得して解析する。
-    相対パスリダイレクト（例: '/feed/index.xml'）やHTTP 307/308を安全に自動追従します。
+    相対パスリダイレクトやHTTP 307/308を安全に自動追従します。
     """
     log(f"RSSフィードの取得を開始: {url}")
     current_url = url
@@ -58,11 +58,9 @@ def fetch_rss_feed(url: str) -> list:
                     log(f"リダイレクト追従に成功。最終解決URL: {response.geturl()}")
                 break
         except urllib.error.HTTPError as e:
-            # 301, 302, 303, 307, 308 のリダイレクトステータスを補足
             if e.code in (301, 302, 303, 307, 308) and attempt < max_redirects:
                 new_url = e.headers.get("Location")
                 if new_url:
-                    # 相対パス（例: /feed/index.xml）を絶対URLに結合・変換する
                     resolved_url = urllib.parse.urljoin(current_url, new_url)
                     log(f"HTTP {e.code} (Redirect) を検知しました。リダイレクト先: {resolved_url}")
                     current_url = resolved_url
@@ -91,7 +89,14 @@ def fetch_rss_feed(url: str) -> list:
         title = item.find("title")
         link = item.find("link")
         pub_date = item.find("pubDate")
-        creator = item.find("{http://purl.org/dc/elements/1.1/}creator")
+        
+        # 名前空間に依存しない要素検索（投稿者）
+        author_text = "GIZMODO JAPAN"
+        for child in item:
+            if child.tag.endswith("creator") and child.text:
+                author_text = child.text
+                break
+
         description = item.find("description")
 
         title_text = title.text if title is not None else "無題"
@@ -101,26 +106,24 @@ def fetch_rss_feed(url: str) -> list:
         raw_pub_date = pub_date.text if pub_date is not None else ""
         pub_date_jst = parse_to_jst(raw_pub_date)
         
-        author_text = creator.text if creator is not None else "GIZMODO JAPAN"
-        
         # 本文抜粋（HTMLタグの簡易除去）
         desc_text = ""
         if description is not None and description.text:
             desc_text = description.text.split("<")[0][:100] + "..."
 
-        # 画像URLの抽出（enclosureタグ、またはmedia:contentタグ等を探す）
+        # 画像URLの抽出（名前空間のゆらぎを回避してタグの末尾で判定）
         image_url = ""
         enclosure = item.find("enclosure")
         if enclosure is not None and enclosure.get("url"):
             image_url = enclosure.get("url")
         else:
-            media_content = item.find("{http://search.yahoo.com/mrss/}content")
-            if media_content is not None and media_content.get("url"):
-                image_url = media_content.get("url")
-            else:
-                media_thumbnail = item.find("{http://search.yahoo.com/mrss/}thumbnail")
-                if media_thumbnail is not None and media_thumbnail.get("url"):
-                    image_url = media_thumbnail.get("url")
+            for child in item:
+                if child.tag.endswith("content") and child.get("url"):
+                    image_url = child.get("url")
+                    break
+                elif child.tag.endswith("thumbnail") and child.get("url"):
+                    image_url = child.get("url")
+                    break
 
         if link_text:
             articles.append({
@@ -167,7 +170,6 @@ def save_state(notified_urls: list):
 def send_to_discord(webhook_url: str, embeds: list) -> bool:
     """
     Discord WebhookへEmbed形式でメッセージを送信する。
-    429レートリミット対策、リトライ制御、各種エラー捕捉を完備。
     """
     payload = {
         "username": "Gizmodo 新着BOT",
@@ -198,7 +200,6 @@ def send_to_discord(webhook_url: str, embeds: list) -> bool:
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8") if e.fp else ""
             
-            # HTTP 429: Discordのレートリミット
             if e.code == 429:
                 retry_after = 5.0
                 try:
@@ -210,18 +211,12 @@ def send_to_discord(webhook_url: str, embeds: list) -> bool:
                 log(f"Discordがレートリミット(429)に到達しました。 {retry_after}秒間待機します。(試行: {attempt}/{max_retries})", "WARNING")
                 time.sleep(retry_after)
                 continue
-            
-            # HTTP 403: トークン無効またはアクセス拒否
             elif e.code == 403:
                 log(f"Discordから 403 Forbidden が返されました。Webhook URLが無効か、ブロックされています。レスポンス: {body}", "ERROR")
                 return False
-            
-            # HTTP 400: リクエスト不正
             elif e.code == 400:
                 log(f"Discordから 400 Bad Request が返されました。データ構造に問題があります。レスポンス: {body}", "ERROR")
                 return False
-            
-            # HTTP 5xx: サーバー一時障害（リトライ対象）
             elif e.code >= 500:
                 log(f"Discord側の一時的なサーバーエラー (HTTP {e.code})。{delay}秒後にリトライします。レスポンス: {body}", "WARNING")
                 time.sleep(delay)
@@ -287,20 +282,18 @@ def main():
 
     log(f"新着記事を {len(new_articles)} 件検知しました。")
 
-    # 初回実行時は通知爆発を避けるため、現在の全記事を履歴に突っ込んで終了する
     if is_initial_run:
         log("初回実行を検知。現在のフィード記事をすべて既読として保存し、通知送信はスキップします。", "INFO")
         all_links = [art["link"] for art in articles]
         save_state(all_links)
         return
 
-    # 4. 時系列順（古い記事が上、新しい記事が下）にして送信する
+    # 4. 時系列順にして送信する
     new_articles.reverse()
 
     embeds_to_send = []
     processed_links = []
 
-    # 最大10件までに制限（Discordの上限を厳守）
     for art in new_articles[:MAX_EMBEDS]:
         embeds_to_send.append(build_embed(art))
         processed_links.append(art["link"])
@@ -309,7 +302,6 @@ def main():
     if embeds_to_send:
         success = send_to_discord(webhook_url, embeds_to_send)
         if success:
-            # 送信できたものだけ既読に追加して保存
             notified_urls.extend(processed_links)
             save_state(notified_urls)
         else:
