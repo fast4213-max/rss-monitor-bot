@@ -6,7 +6,8 @@ import urllib.request
 import urllib.error
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 
 # ==========================================
 # 設定値
@@ -22,6 +23,19 @@ def log(message: str, level: str = "INFO"):
     """タイムスタンプ付きの標準ログ出力"""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{timestamp}] [{level}] {message}")
+
+
+def parse_to_jst(date_str: str) -> str:
+    """RFC 2822形式の日付文字列を日本時間(JST)の形式に変換する"""
+    if not date_str:
+        return ""
+    try:
+        dt = parsedate_to_datetime(date_str)
+        jst = timezone(timedelta(hours=9), 'JST')
+        dt_jst = dt.astimezone(jst)
+        return dt_jst.strftime("%Y年%m月%d日 %H:%M")
+    except Exception:
+        return date_str  # 変換に失敗した場合は元の文字列をそのまま返す
 
 
 def fetch_rss_feed(url: str) -> list:
@@ -82,7 +96,11 @@ def fetch_rss_feed(url: str) -> list:
 
         title_text = title.text if title is not None else "無題"
         link_text = link.text.strip() if link is not None else ""
-        pub_date_text = pub_date.text if pub_date is not None else ""
+        
+        # 日時を日本時間に変換
+        raw_pub_date = pub_date.text if pub_date is not None else ""
+        pub_date_jst = parse_to_jst(raw_pub_date)
+        
         author_text = creator.text if creator is not None else "GIZMODO JAPAN"
         
         # 本文抜粋（HTMLタグの簡易除去）
@@ -90,13 +108,28 @@ def fetch_rss_feed(url: str) -> list:
         if description is not None and description.text:
             desc_text = description.text.split("<")[0][:100] + "..."
 
+        # 画像URLの抽出（enclosureタグ、またはmedia:contentタグ等を探す）
+        image_url = ""
+        enclosure = item.find("enclosure")
+        if enclosure is not None and enclosure.get("url"):
+            image_url = enclosure.get("url")
+        else:
+            media_content = item.find("{http://search.yahoo.com/mrss/}content")
+            if media_content is not None and media_content.get("url"):
+                image_url = media_content.get("url")
+            else:
+                media_thumbnail = item.find("{http://search.yahoo.com/mrss/}thumbnail")
+                if media_thumbnail is not None and media_thumbnail.get("url"):
+                    image_url = media_thumbnail.get("url")
+
         if link_text:
             articles.append({
                 "title": title_text,
                 "link": link_text,
-                "pub_date": pub_date_text,
+                "pub_date": pub_date_jst,
                 "author": author_text,
-                "description": desc_text
+                "description": desc_text,
+                "image_url": image_url
             })
 
     log(f"RSSフィードより {len(articles)} 件の記事を解析完了。")
@@ -209,7 +242,8 @@ def send_to_discord(webhook_url: str, embeds: list) -> bool:
 def build_embed(article: dict) -> dict:
     """記事情報オブジェクトからDiscordのEmbed構造に成形する"""
     color_hex = 1507330  # ギズモードレッド (#e60012)
-    return {
+    
+    embed = {
         "title": article["title"],
         "url": article["link"],
         "description": article["description"],
@@ -217,6 +251,12 @@ def build_embed(article: dict) -> dict:
         "author": {"name": article["author"]},
         "footer": {"text": f"Gizmodo Japan • {article['pub_date']}"}
     }
+    
+    # 画像のURLが取得できている場合、右上のサムネイルとして追加
+    if article.get("image_url"):
+        embed["thumbnail"] = {"url": article["image_url"]}
+        
+    return embed
 
 
 def main():
@@ -255,7 +295,6 @@ def main():
         return
 
     # 4. 時系列順（古い記事が上、新しい記事が下）にして送信する
-    # RSSは通常、最新が先頭[0]にあるため、reverse()をかけることで古い順にする
     new_articles.reverse()
 
     embeds_to_send = []
@@ -279,3 +318,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
