@@ -21,21 +21,41 @@ def log(message: str, level: str = "INFO"):
 
 
 def fetch_rss_feed(url: str) -> list:
-    """RSSフィードを取得して解析する"""
+    """RSSフィードを取得して解析する（HTTP 308等のリダイレクト自動追従機能付き）"""
     log(f"RSSフィードの取得を開始: {url}")
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    current_url = url
+    max_redirects = 3
+    xml_data = None
 
-    try:
-        with urllib.request.urlopen(req, timeout=15) as response:
-            xml_data = response.read()
-    except urllib.error.HTTPError as e:
-        log(f"RSSの取得に失敗しました (HTTP {e.code}): {e.reason}", "ERROR")
-        return []
-    except Exception as e:
-        log(f"RSS取得中に未知のエラーが発生しました: {e}", "ERROR")
+    # HTTP 307/308 等のリダイレクトを安全に追従するループ
+    for attempt in range(max_redirects + 1):
+        req = urllib.request.Request(current_url, headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=15) as response:
+                xml_data = response.read()
+                if current_url != url:
+                    log(f"リダイレクトに成功しました。最終URL: {response.geturl()}")
+                break
+        except urllib.error.HTTPError as e:
+            # 301, 302, 303, 307, 308 リダイレクトを自前で捕捉して追従する
+            if e.code in (301, 302, 303, 307, 308) and attempt < max_redirects:
+                new_url = e.headers.get("Location")
+                if new_url:
+                    log(f"HTTP {e.code} (Redirect) を検知しました。転送先URL: {new_url}")
+                    current_url = new_url
+                    continue
+            
+            log(f"RSSの取得に失敗しました (HTTP {e.code}): {e.reason}", "ERROR")
+            return []
+        except Exception as e:
+            log(f"RSS取得中に未知のエラーが発生しました: {e}", "ERROR")
+            return []
+
+    if not xml_data:
+        log("リダイレクト上限に達したか、またはデータが空です。", "ERROR")
         return []
 
-    # RSS XML 解析 (ギズモードはRSS 2.0 / Atom等)
+    # RSS XML 解析
     try:
         root = ET.fromstring(xml_data)
     except ET.ParseError as e:
@@ -43,7 +63,6 @@ def fetch_rss_feed(url: str) -> list:
         return []
 
     articles = []
-    # RSS 2.0形式
     for item in root.findall(".//item"):
         title = item.find("title")
         link = item.find("link")
@@ -56,10 +75,8 @@ def fetch_rss_feed(url: str) -> list:
         pub_date_text = pub_date.text if pub_date is not None else ""
         author_text = creator.text if creator is not None else "GIZMODO JAPAN"
         
-        # 簡易的にdescriptionから文字抽出
         desc_text = ""
         if description is not None and description.text:
-            # HTMLタグの簡易除去
             desc_text = description.text.split("<")[0][:100] + "..."
 
         if link_text:
@@ -90,8 +107,7 @@ def load_state() -> list:
 
 
 def save_state(notified_urls: list):
-    """既読のURLリストを保存する（最大500件保持してローテーション）"""
-    # 履歴が無限に肥大化しないように最大500件に制限
+    """既読のURLリストを保存する"""
     keep_urls = notified_urls[-500:]
     try:
         with open(STATE_FILE, "w", encoding="utf-8") as f:
@@ -132,31 +148,23 @@ def send_to_discord(webhook_url: str, embeds: list) -> bool:
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8") if e.fp else ""
             
-            # 429 Too Many Requests (レートリミット)
             if e.code == 429:
-                retry_after = 5.0  # デフォルトの待機秒数
+                retry_after = 5.0
                 try:
                     resp_json = json.loads(body)
                     retry_after = float(resp_json.get("retry_after", 5.0))
                 except Exception:
-                    # ヘッダーから取得を試みる
                     retry_after = float(e.headers.get("Retry-After", 5.0))
                 
                 log(f"Discordがレートリミットに達しました。 {retry_after}秒間スリープします。(試行 {attempt}/{max_retries})", "WARNING")
                 time.sleep(retry_after)
                 continue
-            
-            # 403 Forbidden (Webhook URLの不備、IPブロック等)
             elif e.code == 403:
                 log(f"Discordから 403 Forbidden が返されました。Webhook URLが無効か、ブロックされている可能性があります。レスポンス: {body}", "ERROR")
                 return False
-            
-            # 400 Bad Request (JSONフォーマット違反など)
             elif e.code == 400:
                 log(f"Discordから 400 Bad Request が返されました。ペイロードに問題があります。レスポンス: {body}", "ERROR")
                 return False
-            
-            # その他の5xx系エラーは一時的な障害としてリトライ
             elif e.code >= 500:
                 log(f"Discordサーバーエラー (HTTP {e.code})。{delay}秒後に再試行します。レスポンス: {body}", "WARNING")
                 time.sleep(delay)
@@ -165,7 +173,6 @@ def send_to_discord(webhook_url: str, embeds: list) -> bool:
             else:
                 log(f"Discord送信エラー (HTTP {e.code}): {e.reason}. レスポンス: {body}", "ERROR")
                 return False
-
         except Exception as e:
             log(f"Discord通信中に例外が発生しました: {e}。{delay}秒後に再試行します。", "WARNING")
             time.sleep(delay)
@@ -177,20 +184,14 @@ def send_to_discord(webhook_url: str, embeds: list) -> bool:
 
 def build_embed(article: dict) -> dict:
     """記事情報からDiscord用のEmbedを作成する"""
-    # ギズモード風のカラー（ダーク系の赤/オレンジを想定。ここではHex: #e60012）
-    color_hex = 1507330
-
+    color_hex = 1507330  # ギズモードレッド
     return {
         "title": article["title"],
         "url": article["link"],
         "description": article["description"],
         "color": color_hex,
-        "author": {
-            "name": article["author"]
-        },
-        "footer": {
-            "text": f"Gizmodo Japan • {article['pub_date']}"
-        }
+        "author": {"name": article["author"]},
+        "footer": {"text": f"Gizmodo Japan • {article['pub_date']}"}
     }
 
 
@@ -200,17 +201,14 @@ def main():
         log("環境変数 DISCORD_WEBHOOK_URL が設定されていません。処理を中断します。", "ERROR")
         return
 
-    # 既読URLのロード
     notified_urls = load_state()
     is_initial_run = (len(notified_urls) == 0)
 
-    # RSSの取得
     articles = fetch_rss_feed(RSS_URL)
     if not articles:
         log("新規記事の取得がスキップされたか、記事が0件です。")
         return
 
-    # 新着記事をフィルタリング
     new_articles = []
     for art in articles:
         if art["link"] not in notified_urls:
@@ -222,18 +220,14 @@ def main():
 
     log(f"新着記事を {len(new_articles)} 件検知しました。")
 
-    # 初回起動時は通知が溢れるのを防ぐため、最新の1件のみ通知、または履歴にすべて登録して終了する
     if is_initial_run:
         log("初回実行のため、現在の全記事を『通知済み』として保存し、通知はスキップします。", "INFO")
         all_links = [art["link"] for art in articles]
         save_state(all_links)
         return
 
-    # 複数件は時系列順（古い -> 新しい）で送信するため、逆順にする
-    # RSSは通常、最新が上(インデックス0)にあるため、逆順にして古いものから処理
     new_articles.reverse()
 
-    # 送信用のEmbedリストを構築 (最大10件に制限)
     embeds_to_send = []
     processed_links = []
 
@@ -241,11 +235,9 @@ def main():
         embeds_to_send.append(build_embed(art))
         processed_links.append(art["link"])
 
-    # Webhook送信
     if embeds_to_send:
         success = send_to_discord(webhook_url, embeds_to_send)
         if success:
-            # 送信に成功したURLを既読リストに追加
             notified_urls.extend(processed_links)
             save_state(notified_urls)
         else:
