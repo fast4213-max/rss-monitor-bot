@@ -156,11 +156,23 @@ def fetch_rss_feed(url: str, default_author: str, feed_id: str = "") -> list:
         log(f"XMLのパースに失敗しました: {e}", "ERROR", feed_id=feed_id)
         return []
 
+    def find_local(parent, local_name):
+        """名前空間の有無に関わらずローカル名でタグを検索する（RSS 1.0/RDF対応）"""
+        for child in parent:
+            local = child.tag.split("}")[-1] if "}" in child.tag else child.tag
+            if local == local_name:
+                return child
+        return None
+
+    # RSS 2.0は <item>、RSS 1.0（RDF）は名前空間付き <rss:item> 等になるため両方に対応
+    all_items = [el for el in root.iter()
+                 if (el.tag.split("}")[-1] if "}" in el.tag else el.tag) == "item"]
+
     articles = []
-    for item in root.findall(".//item"):
-        title = item.find("title")
-        link = item.find("link")
-        pub_date = item.find("pubDate")
+    for item in all_items:
+        title = find_local(item, "title")
+        link = find_local(item, "link")
+        pub_date = find_local(item, "pubDate") or find_local(item, "date")  # RSS 1.0はdc:dateを使う場合あり
 
         author_text = default_author
         for child in item:
@@ -168,7 +180,7 @@ def fetch_rss_feed(url: str, default_author: str, feed_id: str = "") -> list:
                 author_text = child.text
                 break
 
-        description = item.find("description")
+        description = find_local(item, "description")
 
         title_text = title.text.strip() if title is not None and title.text else "無題"
 
@@ -185,7 +197,7 @@ def fetch_rss_feed(url: str, default_author: str, feed_id: str = "") -> list:
             desc_text = cleaned[:100] + "..." if len(cleaned) > 100 else cleaned
 
         image_url = ""
-        enclosure = item.find("enclosure")
+        enclosure = find_local(item, "enclosure")
         if enclosure is not None and enclosure.get("url"):
             image_url = enclosure.get("url")
         else:
