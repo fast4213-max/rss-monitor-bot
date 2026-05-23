@@ -80,7 +80,8 @@
         "https://www.gizmodo.jp/article/renewal_special_project_fiio_cd-player/",
         "https://www.gizmodo.jp/article/konciwa-mfu1s/",
         "https://www.gizmodo.jp/article/fujihoro-seiro-s8r/",
-        "https://www.gizmodo.jp/article/amazon-phirips-battery-checker-charger/"
+        "https://www.gizmodo.jp/article/amazon-phirips-battery-checker-charger/",
+        "https://www.gizmodo.jp/article/plusminuszero-xjc-k211/"
       ]
     },
     "itmedia": {
@@ -197,7 +198,8 @@
         "https://ascii.jp/elem/000/004/404/4404526/?rss",
         "https://ascii.jp/elem/000/004/404/4404527/?rss",
         "https://ascii.jp/elem/000/004/404/4404528/?rss",
-        "https://ascii.jp/elem/000/004/404/4404524/?rss"
+        "https://ascii.jp/elem/000/004/404/4404524/?rss",
+        "https://ascii.jp/elem/000/004/402/4402350/?rss"
       ]
     },
     "pcwatch": {
@@ -265,5 +267,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-23T04:00:28.687688"
+  "updated_at": "2026-05-23T04:15:19.681383"
 }
