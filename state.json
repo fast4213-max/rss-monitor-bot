@@ -200,7 +200,14 @@
         "https://ascii.jp/elem/000/004/404/4404528/?rss",
         "https://ascii.jp/elem/000/004/404/4404524/?rss",
         "https://ascii.jp/elem/000/004/402/4402350/?rss",
-        "https://ascii.jp/elem/000/004/404/4404282/?rss"
+        "https://ascii.jp/elem/000/004/404/4404282/?rss",
+        "https://ascii.jp/elem/000/004/404/4404538/?rss",
+        "https://ascii.jp/elem/000/004/404/4404537/?rss",
+        "https://ascii.jp/elem/000/004/404/4404536/?rss",
+        "https://ascii.jp/elem/000/004/404/4404535/?rss",
+        "https://ascii.jp/elem/000/004/404/4404534/?rss",
+        "https://ascii.jp/elem/000/004/404/4404533/?rss",
+        "https://ascii.jp/elem/000/004/404/4404532/?rss"
       ]
     },
     "pcwatch": {
@@ -268,5 +275,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-23T04:45:20.233990"
+  "updated_at": "2026-05-23T05:00:28.720028"
 }
