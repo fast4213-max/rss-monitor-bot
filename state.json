@@ -85,7 +85,8 @@
         "https://www.gizmodo.jp/article/muji_uv_powder/",
         "https://www.gizmodo.jp/article/kai-nadesori/",
         "https://www.gizmodo.jp/article/sensor-light-ball-type-daiso-f7p-4k6/",
-        "https://www.gizmodo.jp/article/watch_tudor_black-bay-gmt/"
+        "https://www.gizmodo.jp/article/watch_tudor_black-bay-gmt/",
+        "https://www.gizmodo.jp/article/amazon-sale-coleman-2-7a6/"
       ]
     },
     "itmedia": {
@@ -224,7 +225,8 @@
         "https://ascii.jp/elem/000/004/402/4402973/?rss",
         "https://ascii.jp/elem/000/004/404/4404547/?rss",
         "https://ascii.jp/elem/000/004/402/4402996/?rss",
-        "https://ascii.jp/elem/000/004/403/4403279/?rss"
+        "https://ascii.jp/elem/000/004/403/4403279/?rss",
+        "https://ascii.jp/elem/000/004/404/4404453/?rss"
       ]
     },
     "pcwatch": {
@@ -293,5 +295,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-23T08:30:25.245820"
+  "updated_at": "2026-05-23T08:45:20.606807"
 }
