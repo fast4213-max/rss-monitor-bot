@@ -104,7 +104,8 @@
         "https://www.gizmodo.jp/article/cut-the-ads-on-amazon-prime-video-cz2/",
         "https://www.gizmodo.jp/article/daiso-ear-cleaning-cam-lih/",
         "https://www.gizmodo.jp/article/renewal_special_project_sony-alpha7v_and_sandals/",
-        "https://www.gizmodo.jp/article/gentos_blower_hayate-yw3/"
+        "https://www.gizmodo.jp/article/gentos_blower_hayate-yw3/",
+        "https://www.gizmodo.jp/article/matome_outdoor-brand_gear/"
       ]
     },
     "itmedia": {
@@ -292,7 +293,11 @@
         "https://ascii.jp/elem/000/004/404/4404584/?rss",
         "https://ascii.jp/elem/000/004/402/4402637/?rss",
         "https://ascii.jp/elem/000/004/403/4403280/?rss",
-        "https://ascii.jp/elem/000/004/404/4404551/?rss"
+        "https://ascii.jp/elem/000/004/404/4404551/?rss",
+        "https://ascii.jp/elem/000/004/403/4403291/?rss",
+        "https://ascii.jp/elem/000/004/403/4403662/?rss",
+        "https://ascii.jp/elem/000/004/404/4404546/?rss",
+        "https://ascii.jp/elem/000/004/404/4404557/?rss"
       ]
     },
     "pcwatch": {
@@ -361,5 +366,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-24T09:00:29.203031"
+  "updated_at": "2026-05-24T09:15:20.058297"
 }
