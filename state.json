@@ -110,7 +110,8 @@
         "https://www.gizmodo.jp/article/nisikawa/",
         "https://www.gizmodo.jp/article/microsoft-finally-made-the-surface-laptop-you-wanted-but-its-not-for-you/",
         "https://www.gizmodo.jp/article/serial-killer_numbers_drop/",
-        "https://www.gizmodo.jp/article/e9483797-57e0-499f-bd29-304ccdcbb293/"
+        "https://www.gizmodo.jp/article/e9483797-57e0-499f-bd29-304ccdcbb293/",
+        "https://www.gizmodo.jp/article/renewal_special_project_split-keyboard/"
       ]
     },
     "itmedia": {
@@ -319,7 +320,10 @@
         "https://ascii.jp/elem/000/004/404/4404594/?rss",
         "https://ascii.jp/elem/000/004/404/4404597/?rss",
         "https://ascii.jp/elem/000/004/404/4404484/?rss",
-        "https://ascii.jp/elem/000/004/404/4404600/?rss"
+        "https://ascii.jp/elem/000/004/404/4404600/?rss",
+        "https://ascii.jp/elem/000/004/404/4404366/?rss",
+        "https://ascii.jp/elem/000/004/404/4404586/?rss",
+        "https://ascii.jp/elem/000/004/404/4404602/?rss"
       ]
     },
     "pcwatch": {
@@ -395,5 +399,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-24T23:00:28.975699"
+  "updated_at": "2026-05-24T23:15:21.187222"
 }
