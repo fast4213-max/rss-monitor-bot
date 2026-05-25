@@ -123,7 +123,8 @@
         "https://www.gizmodo.jp/article/8b8b6abe-0699-4557-938a-b51369f9b49d/",
         "https://www.gizmodo.jp/article/317114/",
         "https://www.gizmodo.jp/article/3coins-ems-hemle/",
-        "https://www.gizmodo.jp/article/folding-umbrella-handle-for-airtag-fv5/"
+        "https://www.gizmodo.jp/article/folding-umbrella-handle-for-airtag-fv5/",
+        "https://www.gizmodo.jp/article/viture-beast/"
       ]
     },
     "itmedia": {
@@ -503,7 +504,13 @@
         "https://ascii.jp/elem/000/004/404/4404840/?rss",
         "https://ascii.jp/elem/000/004/404/4404838/?rss",
         "https://ascii.jp/elem/000/004/404/4404837/?rss",
-        "https://ascii.jp/elem/000/004/404/4404839/?rss"
+        "https://ascii.jp/elem/000/004/404/4404839/?rss",
+        "https://ascii.jp/elem/000/004/402/4402416/?rss",
+        "https://ascii.jp/elem/000/004/402/4402661/?rss",
+        "https://ascii.jp/elem/000/004/404/4404609/?rss",
+        "https://ascii.jp/elem/000/004/404/4404701/?rss",
+        "https://ascii.jp/elem/000/004/404/4404704/?rss",
+        "https://ascii.jp/elem/000/004/404/4404789/?rss"
       ]
     },
     "pcwatch": {
@@ -544,7 +551,8 @@
         "https://pc.watch.impress.co.jp/docs/news/2111241.html",
         "https://pc.watch.impress.co.jp/docs/news/2111262.html",
         "https://pc.watch.impress.co.jp/docs/news/2111282.html",
-        "https://pc.watch.impress.co.jp/docs/news/2111347.html"
+        "https://pc.watch.impress.co.jp/docs/news/2111347.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111380.html"
       ]
     },
     "ktai": {
@@ -599,5 +607,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-25T08:00:34.958808"
+  "updated_at": "2026-05-25T08:15:23.466911"
 }
