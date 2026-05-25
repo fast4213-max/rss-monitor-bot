@@ -328,7 +328,8 @@
         "https://ascii.jp/elem/000/004/404/4404602/?rss",
         "https://ascii.jp/elem/000/004/404/4404603/?rss",
         "https://ascii.jp/elem/000/004/404/4404604/?rss",
-        "https://ascii.jp/elem/000/004/404/4404606/?rss"
+        "https://ascii.jp/elem/000/004/404/4404606/?rss",
+        "https://ascii.jp/elem/000/004/404/4404588/?rss"
       ]
     },
     "pcwatch": {
@@ -359,7 +360,8 @@
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111148.html",
         "https://pc.watch.impress.co.jp/docs/column/ubuntu/2110995.html",
         "https://pc.watch.impress.co.jp/docs/column/ubiq/2111027.html",
-        "https://pc.watch.impress.co.jp/docs/column/semicon/2111161.html"
+        "https://pc.watch.impress.co.jp/docs/column/semicon/2111161.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111188.html"
       ]
     },
     "ktai": {
@@ -405,5 +407,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-25T00:30:24.429641"
+  "updated_at": "2026-05-25T00:45:21.933810"
 }
