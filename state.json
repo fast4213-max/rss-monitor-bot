@@ -113,7 +113,8 @@
         "https://www.gizmodo.jp/article/e9483797-57e0-499f-bd29-304ccdcbb293/",
         "https://www.gizmodo.jp/article/renewal_special_project_split-keyboard/",
         "https://www.gizmodo.jp/article/california-proposes-software-tax-more-suited-to-the-modern-era/",
-        "https://www.gizmodo.jp/article/worst-case-scenarios-for-el-nino-are-literally-off-the-charts/"
+        "https://www.gizmodo.jp/article/worst-case-scenarios-for-el-nino-are-literally-off-the-charts/",
+        "https://www.gizmodo.jp/article/amds-next-big-chip-hopes-to-beat-nvidias-cpus-while-theyre-in-the-crib/"
       ]
     },
     "itmedia": {
@@ -346,7 +347,17 @@
         "https://ascii.jp/elem/000/004/404/4404628/?rss",
         "https://ascii.jp/elem/000/004/404/4404629/?rss",
         "https://ascii.jp/elem/000/004/404/4404630/?rss",
-        "https://ascii.jp/elem/000/004/404/4404631/?rss"
+        "https://ascii.jp/elem/000/004/404/4404631/?rss",
+        "https://ascii.jp/elem/000/004/404/4404625/?rss",
+        "https://ascii.jp/elem/000/004/404/4404626/?rss",
+        "https://ascii.jp/elem/000/004/404/4404624/?rss",
+        "https://ascii.jp/elem/000/004/404/4404622/?rss",
+        "https://ascii.jp/elem/000/004/404/4404623/?rss",
+        "https://ascii.jp/elem/000/004/404/4404620/?rss",
+        "https://ascii.jp/elem/000/004/404/4404621/?rss",
+        "https://ascii.jp/elem/000/004/404/4404618/?rss",
+        "https://ascii.jp/elem/000/004/404/4404619/?rss",
+        "https://ascii.jp/elem/000/004/404/4404616/?rss"
       ]
     },
     "pcwatch": {
@@ -379,7 +390,11 @@
         "https://pc.watch.impress.co.jp/docs/column/ubiq/2111027.html",
         "https://pc.watch.impress.co.jp/docs/column/semicon/2111161.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111188.html",
-        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111197.html"
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111197.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111208.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111199.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111222.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111226.html"
       ]
     },
     "ktai": {
@@ -425,5 +440,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-25T02:00:29.925572"
+  "updated_at": "2026-05-25T02:15:21.420516"
 }
