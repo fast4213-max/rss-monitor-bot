@@ -535,7 +535,8 @@
         "https://ascii.jp/elem/000/004/404/4404786/?rss",
         "https://ascii.jp/elem/000/004/404/4404807/?rss",
         "https://ascii.jp/elem/000/004/404/4404726/?rss",
-        "https://ascii.jp/elem/000/004/404/4404868/?rss"
+        "https://ascii.jp/elem/000/004/404/4404868/?rss",
+        "https://ascii.jp/elem/000/004/404/4404872/?rss"
       ]
     },
     "pcwatch": {
@@ -633,5 +634,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-25T09:30:26.076696"
+  "updated_at": "2026-05-25T09:45:21.815649"
 }
