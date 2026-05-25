@@ -136,7 +136,8 @@
         "https://www.gizmodo.jp/article/bose-lifestyle-ultra-soundbar-review/",
         "https://www.gizmodo.jp/article/317204/",
         "https://www.gizmodo.jp/article/renewed-things-wallet/",
-        "https://www.gizmodo.jp/article/sensor-light-ball-type-daiso-1-tq3/"
+        "https://www.gizmodo.jp/article/sensor-light-ball-type-daiso-1-tq3/",
+        "https://www.gizmodo.jp/article/momentum-true-wireless-5/"
       ]
     },
     "itmedia": {
@@ -624,7 +625,8 @@
         "https://pc.watch.impress.co.jp/docs/column/haishin_shugyousou/2108305.html",
         "https://pc.watch.impress.co.jp/docs/topic/feature/2111486.html",
         "https://pc.watch.impress.co.jp/docs/news/2111508.html",
-        "https://pc.watch.impress.co.jp/docs/topic/feature/2111310.html"
+        "https://pc.watch.impress.co.jp/docs/topic/feature/2111310.html",
+        "https://pc.watch.impress.co.jp/docs/topic/enquete/2111335.html"
       ]
     },
     "ktai": {
@@ -753,7 +755,10 @@
         "https://ascii.jp/elem/000/004/404/4404846/?rss",
         "https://ascii.jp/elem/000/004/404/4404852/?rss",
         "https://ascii.jp/elem/000/004/404/4404848/?rss",
-        "https://ascii.jp/elem/000/004/404/4404873/?rss"
+        "https://ascii.jp/elem/000/004/404/4404873/?rss",
+        "https://ascii.jp/serialarticles/3001033/?rss",
+        "https://ascii.jp/elem/000/004/404/4404613/?rss",
+        "https://ascii.jp/elem/000/004/403/4403664/?rss"
       ]
     },
     "ascii_pc": {
@@ -817,5 +822,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-25T22:00:29.883716"
+  "updated_at": "2026-05-25T22:15:22.120500"
 }
