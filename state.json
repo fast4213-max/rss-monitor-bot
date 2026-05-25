@@ -713,7 +713,17 @@
         "https://ascii.jp/elem/000/004/398/4398157/?rss",
         "https://ascii.jp/elem/000/004/401/4401902/?rss",
         "https://ascii.jp/elem/000/004/401/4401903/?rss",
-        "https://ascii.jp/elem/000/004/401/4401021/?rss"
+        "https://ascii.jp/elem/000/004/401/4401021/?rss",
+        "https://ascii.jp/elem/000/004/402/4402300/?rss",
+        "https://ascii.jp/elem/000/004/400/4400377/?rss",
+        "https://ascii.jp/elem/000/004/403/4403073/?rss",
+        "https://ascii.jp/elem/000/004/404/4404502/?rss",
+        "https://ascii.jp/elem/000/004/402/4402159/?rss",
+        "https://ascii.jp/elem/000/004/402/4402241/?rss",
+        "https://ascii.jp/elem/000/004/402/4402309/?rss",
+        "https://ascii.jp/elem/000/004/401/4401500/?rss",
+        "https://ascii.jp/elem/000/004/403/4403451/?rss",
+        "https://ascii.jp/elem/000/004/403/4403450/?rss"
       ]
     },
     "ascii_pc": {
@@ -757,9 +767,19 @@
         "https://ascii.jp/featuredarticles/1864326/?rss",
         "https://ascii.jp/featuredarticles/1914095/?rss",
         "https://ascii.jp/featuredarticles/1400538/?rss",
-        "https://ascii.jp/featuredarticles/3000905/?rss"
+        "https://ascii.jp/featuredarticles/3000905/?rss",
+        "https://ascii.jp/featuredarticles/3001022/?rss",
+        "https://ascii.jp/featuredarticles/3001123/?rss",
+        "https://ascii.jp/featuredarticles/3001119/?rss",
+        "https://ascii.jp/featuredarticles/3001162/?rss",
+        "https://ascii.jp/featuredarticles/3001182/?rss",
+        "https://ascii.jp/featuredarticles/3001210/?rss",
+        "https://ascii.jp/featuredarticles/3001226/?rss",
+        "https://ascii.jp/featuredarticles/3001247/?rss",
+        "https://ascii.jp/featuredarticles/3001261/?rss",
+        "https://ascii.jp/featuredarticles/3001179/?rss"
       ]
     }
   },
-  "updated_at": "2026-05-25T14:30:35.670800"
+  "updated_at": "2026-05-25T14:45:23.490606"
 }
