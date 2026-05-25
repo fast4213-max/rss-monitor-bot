@@ -405,7 +405,17 @@
         "https://ascii.jp/elem/000/004/404/4404614/?rss",
         "https://ascii.jp/elem/000/004/404/4404643/?rss",
         "https://ascii.jp/elem/000/004/404/4404642/?rss",
-        "https://ascii.jp/elem/000/004/404/4404702/?rss"
+        "https://ascii.jp/elem/000/004/404/4404702/?rss",
+        "https://ascii.jp/elem/000/004/404/4404714/?rss",
+        "https://ascii.jp/elem/000/004/404/4404717/?rss",
+        "https://ascii.jp/elem/000/004/404/4404718/?rss",
+        "https://ascii.jp/elem/000/004/404/4404719/?rss",
+        "https://ascii.jp/elem/000/004/404/4404720/?rss",
+        "https://ascii.jp/elem/000/004/404/4404721/?rss",
+        "https://ascii.jp/elem/000/004/404/4404722/?rss",
+        "https://ascii.jp/elem/000/004/404/4404713/?rss",
+        "https://ascii.jp/elem/000/004/404/4404715/?rss",
+        "https://ascii.jp/elem/000/004/404/4404716/?rss"
       ]
     },
     "pcwatch": {
@@ -444,7 +454,8 @@
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111222.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111226.html",
         "https://pc.watch.impress.co.jp/docs/news/2111241.html",
-        "https://pc.watch.impress.co.jp/docs/news/2111262.html"
+        "https://pc.watch.impress.co.jp/docs/news/2111262.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111282.html"
       ]
     },
     "ktai": {
@@ -486,9 +497,12 @@
         "https://k-tai.watch.impress.co.jp/docs/column/todays_goods/2110579.html",
         "https://k-tai.watch.impress.co.jp/docs/column/minna/2111037.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111042.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2111025.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2111025.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111281.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111266.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111261.html"
       ]
     }
   },
-  "updated_at": "2026-05-25T03:45:22.272969"
+  "updated_at": "2026-05-25T04:00:28.246069"
 }
