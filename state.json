@@ -479,7 +479,16 @@
         "https://ascii.jp/elem/000/004/404/4404824/?rss",
         "https://ascii.jp/elem/000/004/404/4404812/?rss",
         "https://ascii.jp/elem/000/004/404/4404819/?rss",
-        "https://ascii.jp/elem/000/004/404/4404811/?rss"
+        "https://ascii.jp/elem/000/004/404/4404811/?rss",
+        "https://ascii.jp/elem/000/004/404/4404817/?rss",
+        "https://ascii.jp/elem/000/004/404/4404818/?rss",
+        "https://ascii.jp/elem/000/004/404/4404821/?rss",
+        "https://ascii.jp/elem/000/004/404/4404822/?rss",
+        "https://ascii.jp/elem/000/004/404/4404823/?rss",
+        "https://ascii.jp/elem/000/004/404/4404820/?rss",
+        "https://ascii.jp/elem/000/004/404/4404810/?rss",
+        "https://ascii.jp/elem/000/004/404/4404815/?rss",
+        "https://ascii.jp/elem/000/004/404/4404641/?rss"
       ]
     },
     "pcwatch": {
@@ -569,9 +578,10 @@
         "https://k-tai.watch.impress.co.jp/docs/news/sale/2111302.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111332.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111340.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2111011.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2111011.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111357.html"
       ]
     }
   },
-  "updated_at": "2026-05-25T07:00:33.273144"
+  "updated_at": "2026-05-25T07:15:23.777078"
 }
