@@ -143,7 +143,8 @@
         "https://www.gizmodo.jp/article/soundcore-boom-go-3i/",
         "https://www.gizmodo.jp/article/the-end-of-solar-impulse-2/",
         "https://www.gizmodo.jp/article/nativeshoes-olb/",
-        "https://www.gizmodo.jp/article/new-features-expected-in-ios-27/"
+        "https://www.gizmodo.jp/article/new-features-expected-in-ios-27/",
+        "https://www.gizmodo.jp/article/handyfan/"
       ]
     },
     "itmedia": {
@@ -800,7 +801,8 @@
         "https://ascii.jp/elem/000/004/405/4405002/?rss",
         "https://ascii.jp/serialarticles/3001256/?rss",
         "https://ascii.jp/elem/000/004/404/4404794/?rss",
-        "https://ascii.jp/elem/000/004/399/4399716/?rss"
+        "https://ascii.jp/elem/000/004/399/4399716/?rss",
+        "https://ascii.jp/elem/000/004/404/4404806/?rss"
       ]
     },
     "ascii_pc": {
@@ -866,5 +868,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-26T05:00:31.887153"
+  "updated_at": "2026-05-26T05:15:23.752403"
 }
