@@ -149,7 +149,8 @@
         "https://www.gizmodo.jp/article/murder-mystery-of-seals/",
         "https://www.gizmodo.jp/article/bobafett-the-movie/",
         "https://www.gizmodo.jp/article/313825-kl5/",
-        "https://www.gizmodo.jp/article/3db02923-cb86-4c5c-af04-4ac0412383e2/"
+        "https://www.gizmodo.jp/article/3db02923-cb86-4c5c-af04-4ac0412383e2/",
+        "https://www.gizmodo.jp/article/amazon-panasonic-body-shaver/"
       ]
     },
     "itmedia": {
@@ -733,7 +734,8 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2111691.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111433.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111077.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2111734.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2111734.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111775.html"
       ]
     },
     "ascii_digital": {
@@ -840,7 +842,10 @@
         "https://ascii.jp/elem/000/004/404/4404511/?rss",
         "https://ascii.jp/elem/000/004/403/4403576/?rss",
         "https://ascii.jp/elem/000/004/403/4403282/?rss",
-        "https://ascii.jp/elem/000/004/402/4402689/?rss"
+        "https://ascii.jp/elem/000/004/402/4402689/?rss",
+        "https://ascii.jp/elem/000/004/404/4404939/?rss",
+        "https://ascii.jp/elem/000/004/405/4405160/?rss",
+        "https://ascii.jp/elem/000/004/404/4404587/?rss"
       ]
     },
     "ascii_pc": {
@@ -907,5 +912,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-26T09:00:35.861660"
+  "updated_at": "2026-05-26T09:15:29.387095"
 }
