@@ -154,7 +154,8 @@
         "https://www.gizmodo.jp/article/316949/",
         "https://www.gizmodo.jp/article/e90f3193-0cb1-422a-810c-f051b7e03048/",
         "https://www.gizmodo.jp/article/cannabis-and-depression/",
-        "https://www.gizmodo.jp/article/oofos_ahh_original-5es/"
+        "https://www.gizmodo.jp/article/oofos_ahh_original-5es/",
+        "https://www.gizmodo.jp/article/bang-and-olufsen-fragment/"
       ]
     },
     "itmedia": {
@@ -250,7 +251,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/25/news138.html",
         "https://www.itmedia.co.jp/news/articles/2605/26/news126.html",
         "https://www.itmedia.co.jp/news/articles/2605/26/news134.html",
-        "https://www.itmedia.co.jp/news/articles/2605/26/news118.html"
+        "https://www.itmedia.co.jp/news/articles/2605/26/news118.html",
+        "https://www.itmedia.co.jp/news/articles/2605/27/news065.html"
       ]
     },
     "ascii": {
@@ -873,7 +875,8 @@
         "https://ascii.jp/elem/000/004/402/4402691/?rss",
         "https://ascii.jp/elem/000/004/405/4405244/?rss",
         "https://ascii.jp/elem/000/004/405/4405247/?rss",
-        "https://ascii.jp/elem/000/004/404/4404800/?rss"
+        "https://ascii.jp/elem/000/004/404/4404800/?rss",
+        "https://ascii.jp/elem/000/004/405/4405251/?rss"
       ]
     },
     "ascii_pc": {
@@ -940,5 +943,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-26T22:00:30.367845"
+  "updated_at": "2026-05-26T22:30:27.243076"
 }
