@@ -148,7 +148,8 @@
         "https://www.gizmodo.jp/article/72ac7801-5b28-49db-b1e1-385e1347d1e8/",
         "https://www.gizmodo.jp/article/murder-mystery-of-seals/",
         "https://www.gizmodo.jp/article/bobafett-the-movie/",
-        "https://www.gizmodo.jp/article/313825-kl5/"
+        "https://www.gizmodo.jp/article/313825-kl5/",
+        "https://www.gizmodo.jp/article/3db02923-cb86-4c5c-af04-4ac0412383e2/"
       ]
     },
     "itmedia": {
@@ -235,7 +236,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/26/news080.html",
         "https://www.itmedia.co.jp/news/articles/2605/26/news096.html",
         "https://www.itmedia.co.jp/news/articles/2605/26/news106.html",
-        "https://www.itmedia.co.jp/news/articles/2605/26/news108.html"
+        "https://www.itmedia.co.jp/news/articles/2605/26/news108.html",
+        "https://www.itmedia.co.jp/news/articles/2605/26/news113.html",
+        "https://www.itmedia.co.jp/news/articles/2605/26/news114.html"
       ]
     },
     "ascii": {
@@ -660,7 +663,8 @@
         "https://pc.watch.impress.co.jp/docs/news/2111568.html",
         "https://pc.watch.impress.co.jp/docs/news/2111709.html",
         "https://pc.watch.impress.co.jp/docs/news/2111713.html",
-        "https://pc.watch.impress.co.jp/docs/news/2111678.html"
+        "https://pc.watch.impress.co.jp/docs/news/2111678.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111746.html"
       ]
     },
     "ktai": {
@@ -903,5 +907,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-26T08:15:22.094247"
+  "updated_at": "2026-05-26T08:30:31.218788"
 }
