@@ -659,7 +659,8 @@
         "https://pc.watch.impress.co.jp/docs/news/2111576.html",
         "https://pc.watch.impress.co.jp/docs/news/2111568.html",
         "https://pc.watch.impress.co.jp/docs/news/2111709.html",
-        "https://pc.watch.impress.co.jp/docs/news/2111713.html"
+        "https://pc.watch.impress.co.jp/docs/news/2111713.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111678.html"
       ]
     },
     "ktai": {
@@ -727,7 +728,8 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2111410.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111691.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111433.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2111077.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2111077.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111734.html"
       ]
     },
     "ascii_digital": {
@@ -825,7 +827,16 @@
         "https://ascii.jp/elem/000/004/404/4404900/?rss",
         "https://ascii.jp/elem/000/004/405/4405114/?rss",
         "https://ascii.jp/elem/000/004/405/4405116/?rss",
-        "https://ascii.jp/elem/000/004/405/4405163/?rss"
+        "https://ascii.jp/elem/000/004/405/4405163/?rss",
+        "https://ascii.jp/elem/000/004/405/4405117/?rss",
+        "https://ascii.jp/elem/000/004/405/4405120/?rss",
+        "https://ascii.jp/serialarticles/3001316/?rss",
+        "https://ascii.jp/elem/000/004/405/4405166/?rss",
+        "https://ascii.jp/elem/000/004/405/4405035/?rss",
+        "https://ascii.jp/elem/000/004/404/4404511/?rss",
+        "https://ascii.jp/elem/000/004/403/4403576/?rss",
+        "https://ascii.jp/elem/000/004/403/4403282/?rss",
+        "https://ascii.jp/elem/000/004/402/4402689/?rss"
       ]
     },
     "ascii_pc": {
@@ -887,9 +898,10 @@
         "https://ascii.jp/elem/000/004/402/4402686/?rss",
         "https://ascii.jp/elem/000/004/403/4403998/?rss",
         "https://ascii.jp/elem/000/004/404/4404898/?rss",
-        "https://ascii.jp/elem/000/004/404/4404911/?rss"
+        "https://ascii.jp/elem/000/004/404/4404911/?rss",
+        "https://ascii.jp/elem/000/004/405/4405118/?rss"
       ]
     }
   },
-  "updated_at": "2026-05-26T08:00:34.559154"
+  "updated_at": "2026-05-26T08:15:22.094247"
 }
