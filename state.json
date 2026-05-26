@@ -246,7 +246,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/26/news123.html",
         "https://www.itmedia.co.jp/news/articles/2605/26/news125.html",
         "https://www.itmedia.co.jp/news/articles/2605/25/news138.html",
-        "https://www.itmedia.co.jp/news/articles/2605/26/news126.html"
+        "https://www.itmedia.co.jp/news/articles/2605/26/news126.html",
+        "https://www.itmedia.co.jp/news/articles/2605/26/news134.html",
+        "https://www.itmedia.co.jp/news/articles/2605/26/news118.html"
       ]
     },
     "ascii": {
@@ -930,5 +932,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-26T13:09:46.206746"
+  "updated_at": "2026-05-26T13:30:30.941255"
 }
