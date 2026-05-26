@@ -146,7 +146,8 @@
         "https://www.gizmodo.jp/article/new-features-expected-in-ios-27/",
         "https://www.gizmodo.jp/article/handyfan/",
         "https://www.gizmodo.jp/article/72ac7801-5b28-49db-b1e1-385e1347d1e8/",
-        "https://www.gizmodo.jp/article/murder-mystery-of-seals/"
+        "https://www.gizmodo.jp/article/murder-mystery-of-seals/",
+        "https://www.gizmodo.jp/article/bobafett-the-movie/"
       ]
     },
     "itmedia": {
@@ -654,7 +655,8 @@
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111603.html",
         "https://pc.watch.impress.co.jp/docs/news/2111576.html",
         "https://pc.watch.impress.co.jp/docs/news/2111568.html",
-        "https://pc.watch.impress.co.jp/docs/news/2111709.html"
+        "https://pc.watch.impress.co.jp/docs/news/2111709.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111713.html"
       ]
     },
     "ktai": {
@@ -717,7 +719,9 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2111587.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111668.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111645.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2111695.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2111695.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111364.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111410.html"
       ]
     },
     "ascii_digital": {
@@ -880,5 +884,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-26T07:00:30.764069"
+  "updated_at": "2026-05-26T07:15:24.720996"
 }
