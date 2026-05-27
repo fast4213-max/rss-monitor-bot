@@ -162,7 +162,8 @@
         "https://www.gizmodo.jp/article/iphone-pro-models-new-design/",
         "https://www.gizmodo.jp/article/gtm-bobafett-the-movie/",
         "https://www.gizmodo.jp/article/snaps-ar-glasses-may-launch-soon-with-a-jaw-dropping-pricing/",
-        "https://www.gizmodo.jp/article/64d1fa3e-5572-4dbd-aa68-99b43d1c22c9/"
+        "https://www.gizmodo.jp/article/64d1fa3e-5572-4dbd-aa68-99b43d1c22c9/",
+        "https://www.gizmodo.jp/article/neanderthal-dental-treatment/"
       ]
     },
     "itmedia": {
@@ -713,7 +714,8 @@
         "https://pc.watch.impress.co.jp/docs/news/2112028.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112059.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112063.html",
-        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112077.html"
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112077.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112049.html"
       ]
     },
     "ktai": {
@@ -928,7 +930,9 @@
         "https://ascii.jp/elem/000/004/405/4405323/?rss",
         "https://ascii.jp/elem/000/004/405/4405379/?rss",
         "https://ascii.jp/elem/000/004/405/4405411/?rss",
-        "https://ascii.jp/elem/000/004/405/4405414/?rss"
+        "https://ascii.jp/elem/000/004/405/4405414/?rss",
+        "https://ascii.jp/elem/000/004/405/4405446/?rss",
+        "https://ascii.jp/elem/000/004/405/4405320/?rss"
       ]
     },
     "ascii_pc": {
@@ -997,5 +1001,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-27T05:00:35.495960"
+  "updated_at": "2026-05-27T05:30:29.234680"
 }
