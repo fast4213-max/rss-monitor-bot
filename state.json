@@ -173,7 +173,8 @@
         "https://www.gizmodo.jp/article/shell-charger-65w/",
         "https://www.gizmodo.jp/article/google-workspace-icon-change/",
         "https://www.gizmodo.jp/article/ai-phone-galaxy/",
-        "https://www.gizmodo.jp/article/review-anker-soundcore-sleep-a30/"
+        "https://www.gizmodo.jp/article/review-anker-soundcore-sleep-a30/",
+        "https://www.gizmodo.jp/article/the-satellite-industry-boom-is-driving-an-untested-geoengineering-experiment-scientists-warn/"
       ]
     },
     "itmedia": {
@@ -990,7 +991,8 @@
         "https://ascii.jp/elem/000/004/405/4405671/?rss",
         "https://ascii.jp/elem/000/004/405/4405607/?rss",
         "https://ascii.jp/elem/000/004/405/4405528/?rss",
-        "https://ascii.jp/elem/000/004/403/4403150/?rss"
+        "https://ascii.jp/elem/000/004/403/4403150/?rss",
+        "https://ascii.jp/elem/000/004/405/4405677/?rss"
       ]
     },
     "ascii_pc": {
@@ -1060,5 +1062,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-27T12:01:28.011971"
+  "updated_at": "2026-05-27T12:30:33.442798"
 }
