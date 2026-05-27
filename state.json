@@ -179,7 +179,8 @@
         "https://www.gizmodo.jp/article/the-relationship-between-visiting-art-museums-and-aging/",
         "https://www.gizmodo.jp/article/jins-30/",
         "https://www.gizmodo.jp/article/qurra-clothes-dryer-hfr/",
-        "https://www.gizmodo.jp/article/plants-can-sense-the-sound-of-rain/"
+        "https://www.gizmodo.jp/article/plants-can-sense-the-sound-of-rain/",
+        "https://www.gizmodo.jp/article/nalgene-1l-homeeconomicsexperiment/"
       ]
     },
     "itmedia": {
@@ -300,7 +301,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news042.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news074.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news039.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news076.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news076.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news050.html"
       ]
     },
     "ascii": {
@@ -1010,7 +1012,9 @@
         "https://ascii.jp/elem/000/004/403/4403150/?rss",
         "https://ascii.jp/elem/000/004/405/4405677/?rss",
         "https://ascii.jp/elem/000/004/405/4405678/?rss",
-        "https://ascii.jp/elem/000/004/405/4405681/?rss"
+        "https://ascii.jp/elem/000/004/405/4405681/?rss",
+        "https://ascii.jp/elem/000/004/405/4405096/?rss",
+        "https://ascii.jp/elem/000/004/405/4405676/?rss"
       ]
     },
     "ascii_pc": {
@@ -1080,5 +1084,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-27T23:00:33.360779"
+  "updated_at": "2026-05-27T23:30:28.501229"
 }
