@@ -293,7 +293,7 @@ def send_to_discord(webhook_url: str, embeds: list, feed: dict) -> bool:
     """Discord WebhookへEmbed形式でメッセージを送信する"""
     payload = json.dumps({
         "username": feed["bot_name"],
-        "avatar_url": feed["favicon"],
+        # "avatar_url": feed["favicon"],
         "embeds": embeds
     }).encode("utf-8")
 
