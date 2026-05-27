@@ -268,7 +268,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/27/news072.html",
         "https://www.itmedia.co.jp/news/articles/2605/27/news079.html",
         "https://www.itmedia.co.jp/news/articles/2605/27/news085.html",
-        "https://www.itmedia.co.jp/news/articles/2605/27/news080.html"
+        "https://www.itmedia.co.jp/news/articles/2605/27/news080.html",
+        "https://www.itmedia.co.jp/news/articles/2605/27/news088.html"
       ]
     },
     "ascii": {
@@ -700,7 +701,14 @@
         "https://pc.watch.impress.co.jp/docs/news/2111958.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111936.html",
         "https://pc.watch.impress.co.jp/docs/news/yajiuma/2111974.html",
-        "https://pc.watch.impress.co.jp/docs/news/2111995.html"
+        "https://pc.watch.impress.co.jp/docs/news/2111995.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112001.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112024.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111979.html",
+        "https://pc.watch.impress.co.jp/docs/news/yajiuma/2112016.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112030.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112033.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112028.html"
       ]
     },
     "ktai": {
@@ -980,5 +988,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-27T03:30:26.862652"
+  "updated_at": "2026-05-27T04:00:31.763269"
 }
