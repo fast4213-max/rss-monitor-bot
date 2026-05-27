@@ -158,7 +158,9 @@
         "https://www.gizmodo.jp/article/bang-and-olufsen-fragment/",
         "https://www.gizmodo.jp/article/317153/",
         "https://www.gizmodo.jp/article/torras-minimag-pro/",
-        "https://www.gizmodo.jp/article/toyo-arumi-anti-dust-filter-ylh/"
+        "https://www.gizmodo.jp/article/toyo-arumi-anti-dust-filter-ylh/",
+        "https://www.gizmodo.jp/article/iphone-pro-models-new-design/",
+        "https://www.gizmodo.jp/article/gtm-bobafett-the-movie/"
       ]
     },
     "itmedia": {
@@ -264,7 +266,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/27/news069.html",
         "https://www.itmedia.co.jp/news/articles/2605/27/news071.html",
         "https://www.itmedia.co.jp/news/articles/2605/27/news072.html",
-        "https://www.itmedia.co.jp/news/articles/2605/27/news079.html"
+        "https://www.itmedia.co.jp/news/articles/2605/27/news079.html",
+        "https://www.itmedia.co.jp/news/articles/2605/27/news085.html",
+        "https://www.itmedia.co.jp/news/articles/2605/27/news080.html"
       ]
     },
     "ascii": {
@@ -695,7 +699,8 @@
         "https://pc.watch.impress.co.jp/docs/news/2111926.html",
         "https://pc.watch.impress.co.jp/docs/news/2111958.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2111936.html",
-        "https://pc.watch.impress.co.jp/docs/news/yajiuma/2111974.html"
+        "https://pc.watch.impress.co.jp/docs/news/yajiuma/2111974.html",
+        "https://pc.watch.impress.co.jp/docs/news/2111995.html"
       ]
     },
     "ktai": {
@@ -774,7 +779,9 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2111687.html",
         "https://k-tai.watch.impress.co.jp/docs/column/todays_goods/2111714.html",
         "https://k-tai.watch.impress.co.jp/docs/news/sale/2111820.html",
-        "https://k-tai.watch.impress.co.jp/docs/topic/special/2109632.html"
+        "https://k-tai.watch.impress.co.jp/docs/topic/special/2109632.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2111988.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112005.html"
       ]
     },
     "ascii_digital": {
@@ -898,7 +905,14 @@
         "https://ascii.jp/serialarticles/3001030/?rss",
         "https://ascii.jp/elem/000/004/404/4404869/?rss",
         "https://ascii.jp/elem/000/004/405/4405199/?rss",
-        "https://ascii.jp/elem/000/004/404/4404167/?rss"
+        "https://ascii.jp/elem/000/004/404/4404167/?rss",
+        "https://ascii.jp/elem/000/004/405/4405252/?rss",
+        "https://ascii.jp/elem/000/004/405/4405257/?rss",
+        "https://ascii.jp/elem/000/004/405/4405250/?rss",
+        "https://ascii.jp/elem/000/004/405/4405248/?rss",
+        "https://ascii.jp/elem/000/004/403/4403065/?rss",
+        "https://ascii.jp/elem/000/004/405/4405323/?rss",
+        "https://ascii.jp/elem/000/004/405/4405379/?rss"
       ]
     },
     "ascii_pc": {
@@ -966,5 +980,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-27T03:00:30.926779"
+  "updated_at": "2026-05-27T03:30:26.862652"
 }
