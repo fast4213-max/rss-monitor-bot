@@ -332,7 +332,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news126.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news127.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news115.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news120.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news120.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news136.html"
       ]
     },
     "ascii": {
@@ -1096,7 +1097,10 @@
         "https://ascii.jp/elem/000/004/405/4405835/?rss",
         "https://ascii.jp/elem/000/004/403/4403606/?rss",
         "https://ascii.jp/elem/000/004/403/4403284/?rss",
-        "https://ascii.jp/elem/000/004/403/4403196/?rss"
+        "https://ascii.jp/elem/000/004/403/4403196/?rss",
+        "https://ascii.jp/elem/000/004/405/4405580/?rss",
+        "https://ascii.jp/elem/000/004/405/4405896/?rss",
+        "https://ascii.jp/elem/000/004/403/4403066/?rss"
       ]
     },
     "ascii_pc": {
@@ -1170,5 +1174,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-28T09:00:38.290136"
+  "updated_at": "2026-05-28T09:30:28.605136"
 }
