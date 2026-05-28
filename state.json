@@ -755,7 +755,9 @@
         "https://pc.watch.impress.co.jp/docs/news/2112190.html",
         "https://pc.watch.impress.co.jp/docs/news/2112194.html",
         "https://pc.watch.impress.co.jp/docs/topic/feature/2112083.html",
-        "https://pc.watch.impress.co.jp/docs/topic/special/2108872.html"
+        "https://pc.watch.impress.co.jp/docs/topic/special/2108872.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112323.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112337.html"
       ]
     },
     "ktai": {
@@ -1088,5 +1090,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-28T00:30:27.791281"
+  "updated_at": "2026-05-28T01:00:30.616313"
 }
