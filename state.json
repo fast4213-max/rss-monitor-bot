@@ -184,7 +184,8 @@
         "https://www.gizmodo.jp/article/lego-minas-tirith/",
         "https://www.gizmodo.jp/article/keychron-new-products-release/",
         "https://www.gizmodo.jp/article/sorry-apple-samsungs-fainting-detection-is-a-game-changer/",
-        "https://www.gizmodo.jp/article/xperia-1-viii-design/"
+        "https://www.gizmodo.jp/article/xperia-1-viii-design/",
+        "https://www.gizmodo.jp/article/after-600-years-astronomers-finally-solve-the-mystery-of-the-missing-guest-star-nhd/"
       ]
     },
     "itmedia": {
@@ -308,7 +309,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news076.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news050.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news079.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news082.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news082.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news091.html"
       ]
     },
     "ascii": {
@@ -766,7 +768,8 @@
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112343.html",
         "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112356.html",
         "https://pc.watch.impress.co.jp/docs/news/2112366.html",
-        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112376.html"
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112376.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112382.html"
       ]
     },
     "ktai": {
@@ -864,7 +867,8 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2112265.html",
         "https://k-tai.watch.impress.co.jp/docs/column/minna/2112290.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2111763.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2111766.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2111766.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112406.html"
       ]
     },
     "ascii_digital": {
@@ -1101,5 +1105,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-28T02:30:29.603112"
+  "updated_at": "2026-05-28T03:00:39.232645"
 }
