@@ -193,7 +193,8 @@
         "https://www.gizmodo.jp/article/xppen-pilot-pro/",
         "https://www.gizmodo.jp/article/gtm-twitter-10yearsago/",
         "https://www.gizmodo.jp/article/ankers-new-compact-backup-battery-can-run-a-fridge-for-up-to-35-hours/",
-        "https://www.gizmodo.jp/article/worlds-first-red-paint-pnw/"
+        "https://www.gizmodo.jp/article/worlds-first-red-paint-pnw/",
+        "https://www.gizmodo.jp/article/newbalance-graphic-t-shirts/"
       ]
     },
     "itmedia": {
@@ -327,7 +328,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news107.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news124.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news126.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news127.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news127.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news115.html"
       ]
     },
     "ascii": {
@@ -904,7 +906,8 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2112477.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112513.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112562.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2112566.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2112566.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112593.html"
       ]
     },
     "ascii_digital": {
@@ -1085,7 +1088,11 @@
         "https://ascii.jp/elem/000/004/405/4405608/?rss",
         "https://ascii.jp/elem/000/004/405/4405925/?rss",
         "https://ascii.jp/elem/000/004/405/4405930/?rss",
-        "https://ascii.jp/elem/000/004/405/4405978/?rss"
+        "https://ascii.jp/elem/000/004/405/4405978/?rss",
+        "https://ascii.jp/elem/000/004/405/4405835/?rss",
+        "https://ascii.jp/elem/000/004/403/4403606/?rss",
+        "https://ascii.jp/elem/000/004/403/4403284/?rss",
+        "https://ascii.jp/elem/000/004/403/4403196/?rss"
       ]
     },
     "ascii_pc": {
@@ -1154,9 +1161,10 @@
         "https://ascii.jp/elem/000/004/405/4405416/?rss",
         "https://ascii.jp/elem/000/004/405/4405695/?rss",
         "https://ascii.jp/elem/000/004/405/4405797/?rss",
-        "https://ascii.jp/elem/000/004/405/4405928/?rss"
+        "https://ascii.jp/elem/000/004/405/4405928/?rss",
+        "https://ascii.jp/elem/000/004/405/4405816/?rss"
       ]
     }
   },
-  "updated_at": "2026-05-28T08:00:35.638123"
+  "updated_at": "2026-05-28T08:30:33.094471"
 }
