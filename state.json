@@ -335,7 +335,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news127.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news115.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news120.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news136.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news136.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news137.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news143.html"
       ]
     },
     "ascii": {
@@ -805,7 +807,9 @@
         "https://pc.watch.impress.co.jp/docs/news/2112529.html",
         "https://pc.watch.impress.co.jp/docs/news/2112527.html",
         "https://pc.watch.impress.co.jp/docs/news/2112559.html",
-        "https://pc.watch.impress.co.jp/docs/news/2112606.html"
+        "https://pc.watch.impress.co.jp/docs/news/2112606.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112671.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112673.html"
       ]
     },
     "ktai": {
@@ -1104,7 +1108,9 @@
         "https://ascii.jp/elem/000/004/403/4403196/?rss",
         "https://ascii.jp/elem/000/004/405/4405580/?rss",
         "https://ascii.jp/elem/000/004/405/4405896/?rss",
-        "https://ascii.jp/elem/000/004/403/4403066/?rss"
+        "https://ascii.jp/elem/000/004/403/4403066/?rss",
+        "https://ascii.jp/elem/000/004/405/4405929/?rss",
+        "https://ascii.jp/elem/000/004/406/4406063/?rss"
       ]
     },
     "ascii_pc": {
@@ -1178,5 +1184,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-28T10:00:35.037758"
+  "updated_at": "2026-05-28T10:30:29.415947"
 }
