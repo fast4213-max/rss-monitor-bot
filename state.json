@@ -187,7 +187,8 @@
         "https://www.gizmodo.jp/article/xperia-1-viii-design/",
         "https://www.gizmodo.jp/article/after-600-years-astronomers-finally-solve-the-mystery-of-the-missing-guest-star-nhd/",
         "https://www.gizmodo.jp/article/monika-bielskyte-interview/",
-        "https://www.gizmodo.jp/article/soto-steam-rice-cooker-itadaki/"
+        "https://www.gizmodo.jp/article/soto-steam-rice-cooker-itadaki/",
+        "https://www.gizmodo.jp/article/wilithefoldableiphonebereadyintimeforfall/"
       ]
     },
     "itmedia": {
@@ -316,7 +317,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news093.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news090.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news098.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news102.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news102.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news106.html",
+        "https://www.itmedia.co.jp/news/articles/2605/28/news107.html"
       ]
     },
     "ascii": {
@@ -881,7 +884,9 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2111766.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112406.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112408.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2112431.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2112431.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112447.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112458.html"
       ]
     },
     "ascii_digital": {
@@ -1051,7 +1056,8 @@
         "https://ascii.jp/serialarticles/33165/?rss",
         "https://ascii.jp/elem/000/004/405/4405688/?rss",
         "https://ascii.jp/elem/000/004/405/4405493/?rss",
-        "https://ascii.jp/elem/000/004/404/4404727/?rss"
+        "https://ascii.jp/elem/000/004/404/4404727/?rss",
+        "https://ascii.jp/elem/000/004/405/4405833/?rss"
       ]
     },
     "ascii_pc": {
@@ -1122,5 +1128,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-28T04:00:33.493975"
+  "updated_at": "2026-05-28T04:30:29.120436"
 }
