@@ -217,7 +217,9 @@
         "https://www.gizmodo.jp/article/tower_records_cd_player_yellow/",
         "https://www.gizmodo.jp/article/d357b915-0762-4334-89e1-dfa92b6d8c54/",
         "https://www.gizmodo.jp/article/64895509-d24b-4241-b8fa-5d45a828cd3f/",
-        "https://www.gizmodo.jp/article/roomba-plus-515-combo/"
+        "https://www.gizmodo.jp/article/roomba-plus-515-combo/",
+        "https://www.gizmodo.jp/article/crazy-fan-3-hoe/",
+        "https://www.gizmodo.jp/article/behringer-2026-05/"
       ]
     },
     "itmedia": {
@@ -858,7 +860,11 @@
         "https://pc.watch.impress.co.jp/docs/news/2112774.html",
         "https://pc.watch.impress.co.jp/docs/news/2112811.html",
         "https://pc.watch.impress.co.jp/docs/news/2112889.html",
-        "https://pc.watch.impress.co.jp/docs/news/2112877.html"
+        "https://pc.watch.impress.co.jp/docs/news/2112877.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112954.html",
+        "https://pc.watch.impress.co.jp/docs/news/2112917.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112972.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112999.html"
       ]
     },
     "ktai": {
@@ -992,7 +998,9 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2112920.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112950.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112942.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2112947.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2112947.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112983.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112978.html"
       ]
     },
     "ascii_digital": {
@@ -1209,7 +1217,8 @@
         "https://ascii.jp/elem/000/004/406/4406296/?rss",
         "https://ascii.jp/elem/000/004/406/4406297/?rss",
         "https://ascii.jp/elem/000/004/406/4406293/?rss",
-        "https://ascii.jp/elem/000/004/406/4406330/?rss"
+        "https://ascii.jp/elem/000/004/406/4406330/?rss",
+        "https://ascii.jp/elem/000/004/406/4406335/?rss"
       ]
     },
     "ascii_pc": {
@@ -1289,5 +1298,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-29T07:30:30.560525"
+  "updated_at": "2026-05-29T08:00:34.025834"
 }
