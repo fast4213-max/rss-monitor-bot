@@ -205,7 +205,8 @@
         "https://www.gizmodo.jp/article/mavic_ksyrium_sl/",
         "https://www.gizmodo.jp/article/anker-solix-e10-review/",
         "https://www.gizmodo.jp/article/varsan-iyamushi-pettan-poi/",
-        "https://www.gizmodo.jp/article/tempolor-melo-d/"
+        "https://www.gizmodo.jp/article/tempolor-melo-d/",
+        "https://www.gizmodo.jp/article/bgm-renewal-sangean-pocket-radio/"
       ]
     },
     "itmedia": {
@@ -348,7 +349,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/28/news145.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news144.html",
         "https://www.itmedia.co.jp/news/articles/2605/29/news080.html",
-        "https://www.itmedia.co.jp/news/articles/2605/28/news150.html"
+        "https://www.itmedia.co.jp/news/articles/2605/28/news150.html",
+        "https://www.itmedia.co.jp/news/articles/2605/29/news081.html"
       ]
     },
     "ascii": {
@@ -948,7 +950,8 @@
         "https://k-tai.watch.impress.co.jp/docs/column/fujioka/2112665.html",
         "https://k-tai.watch.impress.co.jp/docs/review/2112678.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112687.html",
-        "https://k-tai.watch.impress.co.jp/docs/column/teppan/2112158.html"
+        "https://k-tai.watch.impress.co.jp/docs/column/teppan/2112158.html",
+        "https://k-tai.watch.impress.co.jp/docs/interview/2112646.html"
       ]
     },
     "ascii_digital": {
@@ -1220,5 +1223,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-28T23:30:26.855441"
+  "updated_at": "2026-05-29T00:00:36.807916"
 }
