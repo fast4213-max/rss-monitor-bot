@@ -223,7 +223,8 @@
         "https://www.gizmodo.jp/article/bluetti_aora10-fku/",
         "https://www.gizmodo.jp/article/renewal_special_project_mac-mini/",
         "https://www.gizmodo.jp/article/xiaomi-tag/",
-        "https://www.gizmodo.jp/article/thoriumfuelirradiation/"
+        "https://www.gizmodo.jp/article/thoriumfuelirradiation/",
+        "https://www.gizmodo.jp/article/anker-nano-power-strip/"
       ]
     },
     "itmedia": {
@@ -1243,7 +1244,8 @@
         "https://ascii.jp/elem/000/004/404/4404804/?rss",
         "https://ascii.jp/elem/000/004/406/4406478/?rss",
         "https://ascii.jp/elem/000/004/406/4406419/?rss",
-        "https://ascii.jp/elem/000/004/406/4406090/?rss"
+        "https://ascii.jp/elem/000/004/406/4406090/?rss",
+        "https://ascii.jp/elem/000/004/406/4406481/?rss"
       ]
     },
     "ascii_pc": {
@@ -1323,5 +1325,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-29T10:30:30.258624"
+  "updated_at": "2026-05-29T11:00:35.251365"
 }
