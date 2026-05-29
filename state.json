@@ -213,7 +213,8 @@
         "https://www.gizmodo.jp/article/fusion-rocket-space-travel-ydt/",
         "https://www.gizmodo.jp/article/airline-fuel-surcharge/",
         "https://www.gizmodo.jp/article/94e5aa26-553a-48ba-b519-8f727b64ac3e/",
-        "https://www.gizmodo.jp/article/anker-soundcore-aerofit-2-pro/"
+        "https://www.gizmodo.jp/article/anker-soundcore-aerofit-2-pro/",
+        "https://www.gizmodo.jp/article/tower_records_cd_player_yellow/"
       ]
     },
     "itmedia": {
@@ -362,7 +363,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/29/news084.html",
         "https://www.itmedia.co.jp/news/articles/2605/29/news041.html",
         "https://www.itmedia.co.jp/news/articles/2605/29/news088.html",
-        "https://www.itmedia.co.jp/news/articles/2605/29/news018.html"
+        "https://www.itmedia.co.jp/news/articles/2605/29/news018.html",
+        "https://www.itmedia.co.jp/news/articles/2605/29/news017.html",
+        "https://www.itmedia.co.jp/news/articles/2605/29/news100.html"
       ]
     },
     "ascii": {
@@ -978,7 +981,8 @@
         "https://k-tai.watch.impress.co.jp/docs/news/2112808.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112810.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112832.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2112856.html"
+        "https://k-tai.watch.impress.co.jp/docs/news/2112856.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112874.html"
       ]
     },
     "ascii_digital": {
@@ -1187,7 +1191,11 @@
         "https://ascii.jp/elem/000/004/406/4406197/?rss",
         "https://ascii.jp/elem/000/004/404/4404582/?rss",
         "https://ascii.jp/elem/000/004/406/4406016/?rss",
-        "https://ascii.jp/elem/000/004/405/4405738/?rss"
+        "https://ascii.jp/elem/000/004/405/4405738/?rss",
+        "https://ascii.jp/elem/000/004/406/4406229/?rss",
+        "https://ascii.jp/elem/000/004/405/4405793/?rss",
+        "https://ascii.jp/elem/000/004/406/4406259/?rss",
+        "https://ascii.jp/elem/000/004/406/4406291/?rss"
       ]
     },
     "ascii_pc": {
@@ -1267,5 +1275,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-29T05:00:33.459949"
+  "updated_at": "2026-05-29T05:30:31.073907"
 }
