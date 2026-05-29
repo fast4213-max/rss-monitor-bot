@@ -224,7 +224,9 @@
         "https://www.gizmodo.jp/article/renewal_special_project_mac-mini/",
         "https://www.gizmodo.jp/article/xiaomi-tag/",
         "https://www.gizmodo.jp/article/thoriumfuelirradiation/",
-        "https://www.gizmodo.jp/article/anker-nano-power-strip/"
+        "https://www.gizmodo.jp/article/anker-nano-power-strip/",
+        "https://www.gizmodo.jp/article/ai-phone-crossreview/",
+        "https://www.gizmodo.jp/article/hypershell_s/"
       ]
     },
     "itmedia": {
@@ -381,7 +383,8 @@
         "https://www.itmedia.co.jp/news/articles/2605/29/news120.html",
         "https://www.itmedia.co.jp/news/articles/2605/29/news123.html",
         "https://www.itmedia.co.jp/news/articles/2605/29/news144.html",
-        "https://www.itmedia.co.jp/news/articles/2605/29/news145.html"
+        "https://www.itmedia.co.jp/news/articles/2605/29/news145.html",
+        "https://www.itmedia.co.jp/news/articles/2605/29/news146.html"
       ]
     },
     "ascii": {
@@ -1248,7 +1251,8 @@
         "https://ascii.jp/elem/000/004/406/4406481/?rss",
         "https://ascii.jp/elem/000/004/406/4406429/?rss",
         "https://ascii.jp/elem/000/004/406/4406092/?rss",
-        "https://ascii.jp/elem/000/004/403/4403443/?rss"
+        "https://ascii.jp/elem/000/004/403/4403443/?rss",
+        "https://ascii.jp/elem/000/004/406/4406490/?rss"
       ]
     },
     "ascii_pc": {
@@ -1328,5 +1332,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-29T11:30:29.068725"
+  "updated_at": "2026-05-29T12:00:38.393094"
 }
