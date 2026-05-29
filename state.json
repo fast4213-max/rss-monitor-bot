@@ -207,7 +207,8 @@
         "https://www.gizmodo.jp/article/varsan-iyamushi-pettan-poi/",
         "https://www.gizmodo.jp/article/tempolor-melo-d/",
         "https://www.gizmodo.jp/article/bgm-renewal-sangean-pocket-radio/",
-        "https://www.gizmodo.jp/article/valves-massive-price-hikes-just-ruined-the-steam-deck/"
+        "https://www.gizmodo.jp/article/valves-massive-price-hikes-just-ruined-the-steam-deck/",
+        "https://www.gizmodo.jp/article/3coins-one-push-ice-tray/"
       ]
     },
     "itmedia": {
@@ -352,7 +353,9 @@
         "https://www.itmedia.co.jp/news/articles/2605/29/news080.html",
         "https://www.itmedia.co.jp/news/articles/2605/28/news150.html",
         "https://www.itmedia.co.jp/news/articles/2605/29/news081.html",
-        "https://www.itmedia.co.jp/news/articles/2605/29/news082.html"
+        "https://www.itmedia.co.jp/news/articles/2605/29/news082.html",
+        "https://www.itmedia.co.jp/news/articles/2605/29/news084.html",
+        "https://www.itmedia.co.jp/news/articles/2605/29/news041.html"
       ]
     },
     "ascii": {
@@ -832,7 +835,9 @@
         "https://pc.watch.impress.co.jp/docs/topic/feature/2112651.html",
         "https://pc.watch.impress.co.jp/docs/news/2112497.html",
         "https://pc.watch.impress.co.jp/docs/topic/special/2112489.html",
-        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112742.html"
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112742.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112750.html",
+        "https://pc.watch.impress.co.jp/docs/news/todays_sales/2112760.html"
       ]
     },
     "ktai": {
@@ -955,7 +960,8 @@
         "https://k-tai.watch.impress.co.jp/docs/review/2112678.html",
         "https://k-tai.watch.impress.co.jp/docs/news/2112687.html",
         "https://k-tai.watch.impress.co.jp/docs/column/teppan/2112158.html",
-        "https://k-tai.watch.impress.co.jp/docs/interview/2112646.html"
+        "https://k-tai.watch.impress.co.jp/docs/interview/2112646.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2112597.html"
       ]
     },
     "ascii_digital": {
@@ -1152,7 +1158,10 @@
         "https://ascii.jp/elem/000/004/405/4405489/?rss",
         "https://ascii.jp/elem/000/004/406/4406085/?rss",
         "https://ascii.jp/elem/000/004/406/4406095/?rss",
-        "https://ascii.jp/elem/000/004/405/4405713/?rss"
+        "https://ascii.jp/elem/000/004/405/4405713/?rss",
+        "https://ascii.jp/elem/000/004/406/4406113/?rss",
+        "https://ascii.jp/elem/000/004/406/4406116/?rss",
+        "https://ascii.jp/elem/000/004/399/4399310/?rss"
       ]
     },
     "ascii_pc": {
@@ -1223,9 +1232,10 @@
         "https://ascii.jp/elem/000/004/405/4405797/?rss",
         "https://ascii.jp/elem/000/004/405/4405928/?rss",
         "https://ascii.jp/elem/000/004/405/4405816/?rss",
-        "https://ascii.jp/elem/000/004/406/4406095/?rss"
+        "https://ascii.jp/elem/000/004/406/4406095/?rss",
+        "https://ascii.jp/elem/000/004/406/4406101/?rss"
       ]
     }
   },
-  "updated_at": "2026-05-29T01:00:29.820374"
+  "updated_at": "2026-05-29T01:30:28.070610"
 }
