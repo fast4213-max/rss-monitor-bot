@@ -246,7 +246,8 @@
         "https://www.gizmodo.jp/article/camera-bag-minimalistic/",
         "https://www.gizmodo.jp/article/daiso-pcstand/",
         "https://www.gizmodo.jp/article/why-we-dont-eat-turkey-eggs-qdd/",
-        "https://www.gizmodo.jp/article/keyboard_summary/"
+        "https://www.gizmodo.jp/article/keyboard_summary/",
+        "https://www.gizmodo.jp/article/amazon-earth-coleman/"
       ]
     },
     "itmedia": {
@@ -1315,7 +1316,8 @@
         "https://ascii.jp/elem/000/004/403/4403287/?rss",
         "https://ascii.jp/elem/000/004/406/4406565/?rss",
         "https://ascii.jp/elem/000/004/406/4406191/?rss",
-        "https://ascii.jp/elem/000/004/404/4404569/?rss"
+        "https://ascii.jp/elem/000/004/404/4404569/?rss",
+        "https://ascii.jp/elem/000/004/406/4406236/?rss"
       ]
     },
     "ascii_pc": {
@@ -1399,5 +1401,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-30T10:00:34.891995"
+  "updated_at": "2026-05-30T10:30:28.699959"
 }
