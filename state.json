@@ -239,7 +239,8 @@
         "https://www.gizmodo.jp/article/health-trackers-are-finally-outgrowing-their-battery-problem/",
         "https://www.gizmodo.jp/article/these-birds-are-so-stuffed-with-plastic-you-can-hear-them-crunch-hud/",
         "https://www.gizmodo.jp/article/openai-toy-story-sora-stopped/",
-        "https://www.gizmodo.jp/article/f9e7923b-4239-4160-941c-273cffbfe8f8/"
+        "https://www.gizmodo.jp/article/f9e7923b-4239-4160-941c-273cffbfe8f8/",
+        "https://www.gizmodo.jp/article/amazon-ugreen-magflow/"
       ]
     },
     "itmedia": {
@@ -1299,7 +1300,10 @@
         "https://ascii.jp/elem/000/004/406/4406510/?rss",
         "https://ascii.jp/elem/000/004/406/4406480/?rss",
         "https://ascii.jp/elem/000/004/406/4406528/?rss",
-        "https://ascii.jp/elem/000/004/406/4406233/?rss"
+        "https://ascii.jp/elem/000/004/406/4406233/?rss",
+        "https://ascii.jp/elem/000/004/406/4406384/?rss",
+        "https://ascii.jp/elem/000/004/406/4406295/?rss",
+        "https://ascii.jp/elem/000/004/406/4406231/?rss"
       ]
     },
     "ascii_pc": {
@@ -1383,5 +1387,5 @@
       ]
     }
   },
-  "updated_at": "2026-05-30T06:00:34.691765"
+  "updated_at": "2026-05-30T06:30:29.880885"
 }
